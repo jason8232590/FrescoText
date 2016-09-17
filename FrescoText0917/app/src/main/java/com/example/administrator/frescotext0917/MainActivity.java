@@ -21,7 +21,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     @Override
     public void onClick(View view) {
-        System.out.println("xcqw 点到我了3");
+        System.out.println("xcqw 点到我了4");
+        System.out.println("xcqw 点到我了2");
+        System.out.println("xcqw 点到我了1");
         Uri uri = Uri.parse("http://test2.img.hiwemeet.com/pic/240-240-5e5ad0765f3ef8ac13d7be2411e90cb7/0");
         draweeView.setImageURI(uri);
     }
