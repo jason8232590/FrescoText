@@ -13,6 +13,13 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:onClick="loadImg"/>
+    <Button
+        android:id="@+id/bt_to_round_conner"
+        android:text="变成圆角图片"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="toRoundConner"/>
 
     <com.facebook.drawee.view.SimpleDraweeView
         android:id="@+id/my_image_view"
