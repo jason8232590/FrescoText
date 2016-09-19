@@ -43,6 +43,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         if(R.id.bt_load_img == view.getId()) {
             System.out.println("xcqw 点到我了1222222222222");
             System.out.println("xcqw 我是版本101");
+            System.out.println("xcqw 我是版本101的修改");
             Uri uri = Uri.parse("http://test2.img.hiwemeet.com/pic/240-240-5e5ad0765f3ef8ac13d7be2411e90cb7/0");
             draweeView.setImageURI(uri);
         }
