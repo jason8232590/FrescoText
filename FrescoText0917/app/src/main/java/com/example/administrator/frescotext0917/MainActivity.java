@@ -52,6 +52,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
     public void toRoundConner(View view){
+        System.out.println("xcqw 我是V1.1");
         System.out.println("xcqw 变成圆角");
         //报错
 //        GenericDraweeHierarchy hierarchy = draweeView.getHierarchy();
